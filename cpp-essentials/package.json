@@ -1,0 +1,25 @@
+{
+  "name": "cpp-essentials",
+  "displayName": " C/C++ essentials",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "FckYeah",
+  "repository": "https://github.com/FckYeah/extensions-packs",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "jeff-hykin.better-cpp-syntax",
+    "franneck94.vscode-c-cpp-dev-extension-pack",
+    "leojhonsong.ccpp-extension-pack",
+    "ms-vscode.cpptools-extension-pack"
+  ],
+  "icon": "images/icon128x128.png",
+  "scripts": {
+    "create-pack": "rm -rf **.vsix && vsce package",
+    "install-pack": "code --install-extension *.vsix"
+  }
+}

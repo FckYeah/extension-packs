@@ -1,0 +1,30 @@
+{
+  "name": "css-essentials",
+  "displayName": " CSS essentials",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "FckYeah",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "clinyong.vscode-css-modules",
+    "stylelint.vscode-stylelint",
+    "zignd.html-css-class-completion",
+    "mrmlnc.vscode-less",
+    "sibiraj-s.vscode-scss-formatter",
+    "mrmlnc.vscode-scss",
+    "yutent.scss-to-css",
+    "sysoev.language-stylus",
+    "bradlc.vscode-tailwindcss",
+    "alfredbirk.tailwind-documentation"
+  ],
+  "icon": "images/icon128x128.png",
+  "scripts": {
+    "create-pack": "vsce package",
+    "install-pack": "code --install-extension *.vsix"
+  }
+}

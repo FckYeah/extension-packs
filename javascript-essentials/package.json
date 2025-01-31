@@ -1,0 +1,31 @@
+{
+  "name": "javascript-essentials",
+  "displayName": " JavaScript essentials",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "FckYeah",
+  "repository": "https://github.com/FckYeah/extensions-packs",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "dbaeumer.vscode-eslint",
+    "wix.vscode-import-cost",
+    "sburg.vscode-javascript-booster",
+    "ghmcadams.lintlens",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "rsh.roadrunner",
+    "ChakrounAnas.turbo-console-log",
+    "zardoy.disable-ts-errors",
+    "nucllear.vscode-extension-auto-import"
+  ],
+  "icon": "images/icon128x128.png",
+  "scripts": {
+    "create-pack": "rm -rf **.vsix && vsce package",
+    "install-pack": "code --install-extension *.vsix"
+  }
+}

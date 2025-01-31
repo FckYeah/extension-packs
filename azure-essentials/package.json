@@ -1,0 +1,24 @@
+{
+  "name": "azure-essentials",
+  "displayName": " Azure essentials",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "FckYeah",
+  "repository": "https://github.com/FckYeah/extensions-packs",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-vscode.azure-account",
+    "ms-azuretools.vscode-azureappservice",
+    "ms-azuretools.vscode-azureresourcegroups"
+  ],
+  "icon": "images/icon128x128.png",
+  "scripts": {
+    "create-pack": "rm -rf **.vsix && vsce package",
+    "install-pack": "code --install-extension *.vsix"
+  }
+}
