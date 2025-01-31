@@ -3,3 +3,4 @@
 /**/*.md
 /**/*.vsix
 /**/.DS_Store
+!/README.md
